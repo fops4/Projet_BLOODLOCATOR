@@ -1,0 +1,225 @@
+  #bloodGroups{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    background: rgb(187, 218, 217);
+  }
+  .searc{
+    height: 40px;
+    width: 150px;
+    border-radius: 0 10px 10px 0;
+    background: #ffffff ;
+  }
+
+  body{
+    background-color: white;
+  }
+  
+  a,.lien {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;  
+    color: #000;
+  }
+  a:hover {
+      color: #6a11cb;
+  }
+  button{
+    color: #000;
+  }
+
+
+  /* Définir le conteneur du formulaire avec un arrière-plan gris transparent */
+  .form-container {
+    width: 700px;
+    max-width: 90%;
+    padding: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 50px #000;
+  }
+
+  /* Définir le titre du formulaire en blanc et en majuscules */
+  .form-title {
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Définir les champs de saisie avec des coins arrondis et un arrière-plan blanc */
+  .form-input {
+    width: 600px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(187, 218, 217);
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Définir le style de la case à cocher et du texte associé */
+  .form-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .form-checkbox input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  .form-checkbox label {
+    color: white;
+    font-size: 14px;
+  }
+
+  /* Définir le bouton d'enregistrement avec un dégradé de couleur et une transition */
+  .form-button {
+    width: 60%;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    color: #000;
+    background-color:#3fbbc0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+
+  /* Changer l'opacité du bouton au survol */
+  .form-button:hover {
+    opacity: 0.8;
+  }
+
+  /* Définir le texte du bas du formulaire avec un lien */
+  .form-footer {
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .form-footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Changer la couleur du lien au survol */
+  .form-footer a:hover {
+    color: #6a11cb;
+  }
+
+  /* Ajouter le texte du crédit en bas à droite */
+  .form-credit {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-size: 12px;
+  }
+
+  
+
+  a {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #000;
+
+  }
+
+
+  a:hover {
+    color: #6a11cb;
+  }
+
+  button {
+    color: #3fbbc0;
+  }
+  .titre {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  #bloodType,
+  .inp {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+    background: rgb(187, 218, 217);
+    border-radius: 10px;
+  }
+
+  .but {
+    padding: 10px;
+    background-color: #3fbbc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 250px;
+  }
+  .butt {
+    padding: 10px;
+    background-color: #3fbbc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .gbut{
+    display: flex;
+  }
+
+  .but:hover {
+    background-color: #45a049;
+  }
+  .butt:hover {
+    background-color: #45a049;
+  }
+
+  #result-message {
+    margin-bottom: 15px;
+  }
+
+  #currentStock {
+    margin-top: 20px;
+  }
+
+  .success-message {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .error-message {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.601);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .gestion {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #000;
+  }
+
+  .title {
+    text-align: center;
+    justify-content: center;
+  }
